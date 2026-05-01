@@ -1,0 +1,4 @@
+Path=%TEMP%\HavrutotMatcher
+Setup=HavrutotMatcher.exe
+Silent=1
+Overwrite=1

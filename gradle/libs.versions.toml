@@ -1,0 +1,15 @@
+[versions]
+compose = "1.7.3"
+kotlin = "2.1.0"
+poi = "5.2.5"
+serialization = "1.8.0"
+
+[libraries]
+poi-ooxml = { module = "org.apache.poi:poi-ooxml", version.ref = "poi" }
+kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-plugin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.compose", version.ref = "compose" }
